@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 180px;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Inria Serif", Georgia, serif;
+  font-weight: 400;
+}
+
+.float-hover {
+  transition: transform 200ms ease, color 200ms ease;
+}
+
+.float-hover:hover {
+  transform: translateY(-4px);
+}
+
