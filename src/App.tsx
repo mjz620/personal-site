@@ -262,7 +262,7 @@ function App() {
 
           <ScrollFloat>
             <img
-              src="/IMG_9141.png"
+              src={`${import.meta.env.BASE_URL}IMG_9141.png`}
               alt="mingjia in florida!"
               className="mt-4 w-[420px] rounded-full object-cover float-hover"
             />
