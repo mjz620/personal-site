@@ -129,14 +129,13 @@ const projectItems: CardItem[] = [
   },
   {
     category: "Personal",
-    title: "Computer Vision Dance Critic",
+    title: "cv project",
     subtitle: "in progress :)",
     description:
-      "pipeline in progress... deployed soon! dancing (collecting data) in the meantime",
+      "pipeline in the works... deployed soon! dancing (collecting data) in the meantime",
     detail:
       "Jun 2026 - present",
     tags: ["mediapipe", 'opencv', 'librosa'],
-    href: 'https://www.siam.org/media/cyujop5z/s177755.pdf',
   },
 ];
 
@@ -182,7 +181,7 @@ function App() {
             </ScrollFloat>
 
             <ScrollFloat>
-              <ul className="mt-12 space-y-7 pl-4 text-2xl font-light leading-relaxed">
+              <ul className="mt-16 space-y-7 pl-4 text-2xl font-light leading-relaxed">
                 {highlights.map((highlight, highlightIndex) => (
                   <li
                     key={highlightIndex}
@@ -227,7 +226,7 @@ function App() {
             </ScrollFloat>
 
             <ScrollFloat>
-              <div className="mt-10">
+              <div className="mt-16">
                 <p className="text-2xl font-bold italic float-hover">
                   let’s connect:
                 </p>
@@ -264,7 +263,7 @@ function App() {
             <img
               src={`${import.meta.env.BASE_URL}IMG_9141.png`}
               alt="mingjia in florida!"
-              className="mt-4 w-[420px] rounded-full object-cover float-hover"
+              className="w-[420px] rounded-full object-cover float-hover"
             />
           </ScrollFloat>
         </section>
